@@ -9,9 +9,8 @@
  * Plugin Name:       Bad Egg Digital Login Page
  * Plugin URI:        https://www.badegg.uk
  * Description:       Applies Bad Egg Digital Branding elements to the Wordpress login page.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 5.2
- * Requires PHP:      8.1
  * Author:            Bad Egg Digital
  * Author URI:        https://www.badegg.uk
  * Text Domain:       bad-egg-digital-login-page
@@ -24,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if(!defined('BEDLP')) define('BEDLP', 'bad-egg-digital-login-page');
-if(!defined('BEDLP_VER')) define('BEDLP_VER', '1.0.2');
+if(!defined('BEDLP_VER')) define('BEDLP_VER', '1.0.3');
 if(!defined('BEDLP_BASENAME')) define('BEDLP_BASENAME', plugin_basename(__FILE__));
 if(!defined('BEDLP_FILE')) define('BEDLP_FILE', __FILE__);
 if(!defined('BEDLP_DIR')) define('BEDLP_DIR', plugin_dir_path( __FILE__ ));
