@@ -7,10 +7,7 @@ class Templates
     public function __construct()
     {
         add_filter( 'login_body_class', [$this, 'bodyClass'] );
-        // add_action( 'login_headertitle', [$this, 'headertitle'] );
         add_action( 'login_message', [$this, 'message'] );
-        // add_action( 'login_errors', __NAMESPACE__ . '\\errors' );
-        // add_action( 'login_form', __NAMESPACE__ . '\\form' );
         add_action( 'login_footer', [$this, 'footer'] );
     }
 

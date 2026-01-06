@@ -1,8 +1,8 @@
 {
-  "name": "badegg/bad-egg-digital-login-page",
+  "name": "badegguk/bad-egg-digital-login-page",
   "description": "Applies Bad Egg Digital Branding elements to the Wordpress login page.",
-  "homepage": "https://git.badegg.digital/packages/bad-egg-digital-login-page",
+  "homepage": "https://github.com/bad-egg-digital/bad-egg-digital-login-page",
   "type": "wordpress-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "GPLv3"
 }
