@@ -3,16 +3,16 @@
 /**
  * Plugin main file.
  *
- * @package   badegguk\bad-egg-digital-login-page
+ * @package   bad-egg-packagist\bad-egg-digital-login-page
  *
  * @wordpress-plugin
  * Plugin Name:       Bad Egg Digital Login Page
- * Plugin URI:        https://github.com/bad-egg-digital/bad-egg-digital-login-page.git
+ * Plugin URI:        https://git.badegg.digital/bad-egg-packagist/bad-egg-digital-login-page.git
  * Description:       Applies Bad Egg Digital Branding elements to the Wordpress login page.
- * Version:           1.0.4
+ * Version:           1.0.5
  * Requires at least: 5.2
  * Author:            Bad Egg Digital
- * Author URI:        https://www.badegg.uk
+ * Author URI:        https://www.badegg.digital
  * Text Domain:       bad-egg-digital-login-page
  */
 
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if(!defined('BEDLP')) define('BEDLP', 'bad-egg-digital-login-page');
-if(!defined('BEDLP_VER')) define('BEDLP_VER', '1.0.4');
+if(!defined('BEDLP_VER')) define('BEDLP_VER', '1.0.5');
 if(!defined('BEDLP_BASENAME')) define('BEDLP_BASENAME', plugin_basename(__FILE__));
 if(!defined('BEDLP_FILE')) define('BEDLP_FILE', __FILE__);
 if(!defined('BEDLP_DIR')) define('BEDLP_DIR', plugin_dir_path( __FILE__ ));
